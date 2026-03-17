@@ -1,0 +1,20 @@
+Harsh Yadav
+Frontend + AI Developer
+
+Summary:
+Builds high-performance web experiences, product UIs, and AI-assisted workflows.
+
+Core Skills:
+- React, Next.js, TypeScript, Tailwind CSS
+- Node.js, APIs, Auth, Data Visualization
+- UI systems, performance optimization, accessibility
+- OpenAI-powered features, workflow automations
+
+Selected Work:
+- Portfolio and brand websites with polished animation systems
+- Dashboard and admin interfaces for product teams
+- AI-assisted content and workflow tools
+- End-to-end delivery from wireframe to deployment
+
+Location:
+India

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harsh Yadav portfolio website" />
+  <title>Portfolio - Harsh Yadav</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top" data-theme="light">
+  <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#top" class="logo">Harsh<span>.dev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="menuList">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="menu" id="menuList">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" role="switch" aria-checked="false" aria-label="Toggle dark mode">
+          <span class="theme-track"><span class="theme-thumb"></span></span>
+          <span class="theme-label">Light</span>
+        </button>
+        <a class="btn btn-outline nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section reveal" id="hero">
+      <img src="assets/IMG_2239.jpeg" alt="Harsh Yadav avatar" class="hero-avatar" />
+      <h3 class="reveal-item">Hi, I am Harsh Yadav.</h3>
+      <h1 class="reveal-item">Frontend + AI developer based in India.</h1>
+      <p class="reveal-item">
+        I build fast, clean web interfaces and practical AI features for real products.
+      </p>
+      <div class="hero-actions reveal-item">
+        <a class="btn btn-solid" href="#contact">contact me</a>
+        <a class="btn btn-outline" href="assets/Harsh-Yadav-Resume.txt" download>my resume</a>
+      </div>
+    </section>
+
+    <section class="section about reveal" id="about">
+      <div class="section-head">
+        <h4>Introduction</h4>
+        <h2>About me</h2>
+      </div>
+      <div class="about-layout">
+        <img src="assets/IMG_2239.jpeg" alt="Harsh Yadav" class="about-photo reveal-item" />
+        <div>
+          <p class="about-text reveal-item">
+            I focus on UI engineering, animation systems, and AI-assisted workflows that stay simple for users.
+          </p>
+          <ul class="about-cards">
+            <li class="reveal-item">
+              <h3>Tech</h3>
+              <p>React, Next.js, TypeScript, Tailwind, Node.js</p>
+            </li>
+            <li class="reveal-item">
+              <h3>Experience</h3>
+              <p>Dashboards, portfolios, and conversion landing pages.</p>
+            </li>
+            <li class="reveal-item">
+              <h3>Focus</h3>
+              <p>Clean UI systems with speed, accessibility, and clarity.</p>
+            </li>
+          </ul>
+          <h4 class="tools-title reveal-item">Tools I use</h4>
+          <ul class="tools-list">
+            <li class="reveal-item">Figma</li>
+            <li class="reveal-item">VS Code</li>
+            <li class="reveal-item">GitHub</li>
+            <li class="reveal-item">Postman</li>
+            <li class="reveal-item">Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="services">
+      <div class="section-head">
+        <h4>What I offer</h4>
+        <h2>My services</h2>
+      </div>
+      <p class="section-copy reveal-item">
+        Frontend work that feels modern, loads fast, and stays maintainable.
+      </p>
+      <div class="cards-grid">
+        <article class="service-card reveal-item">
+          <h3>Frontend Development</h3>
+          <p>Responsive production interfaces with reusable components.</p>
+        </article>
+        <article class="service-card reveal-item">
+          <h3>Dashboard UI</h3>
+          <p>Clean data-heavy dashboards designed for everyday use.</p>
+        </article>
+        <article class="service-card reveal-item">
+          <h3>Landing Pages</h3>
+          <p>Focused pages with purposeful motion and clear messaging.</p>
+        </article>
+        <article class="service-card reveal-item">
+          <h3>AI Integration</h3>
+          <p>Useful AI features and workflow automation inside your app.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="work">
+      <div class="section-head">
+        <h4>My portfolio</h4>
+        <h2>Featured work</h2>
+      </div>
+      <p class="section-copy reveal-item">
+        Simpler cards, less text, and quick project context.
+      </p>
+      <div class="work-grid">
+        <a class="work-card reveal-item" href="#" aria-label="View project: Portfolio website">
+          <span class="work-icon" aria-hidden="true">🖥️</span>
+          <h3>Portfolio Website</h3>
+          <p>Personal Brand</p>
+        </a>
+        <a class="work-card reveal-item" href="#" aria-label="View project: Admin dashboard">
+          <span class="work-icon" aria-hidden="true">📊</span>
+          <h3>Admin Dashboard</h3>
+          <p>Analytics UI</p>
+        </a>
+        <a class="work-card reveal-item" href="#" aria-label="View project: AI writing app">
+          <span class="work-icon" aria-hidden="true">🤖</span>
+          <h3>AI Writing App</h3>
+          <p>Web App</p>
+        </a>
+        <a class="work-card reveal-item" href="#" aria-label="View project: Ecommerce landing page">
+          <span class="work-icon" aria-hidden="true">🛒</span>
+          <h3>Ecommerce Launch</h3>
+          <p>Landing Page</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section contact reveal" id="contact">
+      <div class="section-head">
+        <h4>Connect with me</h4>
+        <h2>Get in touch</h2>
+      </div>
+      <p class="section-copy reveal-item">Have a project in mind? Send a quick message.</p>
+      <form class="contact-form reveal-item" id="contactForm">
+        <div class="field-row">
+          <input type="text" name="name" placeholder="Enter your name" required />
+          <input type="email" name="email" placeholder="Enter your email" required />
+        </div>
+        <textarea name="message" rows="7" placeholder="Enter your message" required></textarea>
+        <div class="form-send-zone">
+          <p class="send-note">Ready? Launch your message.</p>
+          <button type="submit" class="btn btn-solid submit-fly">
+            Send now <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <p id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a href="#top" class="logo">Harsh<span>.dev</span></a>
+      <p>harshyadav.dev@proton.me</p>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Harsh Yadav. All rights reserved.</p>
+      <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
